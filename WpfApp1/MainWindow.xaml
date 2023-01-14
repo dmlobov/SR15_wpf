@@ -1,0 +1,307 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Paragraph TextAlignment="Center">
+                    <Span Background="RosyBrown">
+                        <Hyperlink NavigateUri="https://bibl.nngasu.ru/electronicresources/uch-metod/education/855460.pdf#page=14">Лобов Д.М., Тихонов А.В</Hyperlink>                       
+                    </Span>
+                </Paragraph>
+                <Paragraph TextAlignment="Center">
+                    <Italic>ФГБОУ ВПО «Нижегородский государственный архитектурностроительный университет»</Italic>
+                </Paragraph>
+                <Paragraph TextAlignment="Center">
+                    <Bold>Усиление деревянных сжатых элементов углеродным волокном</Bold>                   
+                </Paragraph>
+                <Paragraph TextAlignment="Justify">Современный способ усиления строительных конструкций осуществляется путем армирования сечения усиляемого элемента композитными материалами. Усиление строительных конструкций 
+                    можно осуществлять с использованием композитных материалов – многослойных структур, образованные комбинацией армирующих элементов и связующего (матрицы).
+                    Безусловными преимуществами их являются высокая прочность и модуль упругости, малый вес, легкость повторения любых форм конструкции, стойкость к агрессивным
+                    воздействиям, технологичность, меньшая трудоемкость устройства на строительной площадке.
+                </Paragraph>
+                <Paragraph TextAlignment="Center">
+                    <Italic>В настоящее время применяются следующие виды волокон</Italic>
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>Углеродные</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Арамидные</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Полиэфирные</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Стеклянные</Paragraph>
+                    </ListItem>                    
+                </List>
+                <Paragraph>
+                    Механические и другие свойства композита определяются тремя основными параметрами: высокой прочностью армирующего волокна, жесткостью матрицы и прочностью 
+                    связи на границе матрица–волокно. Механические характеристики, применяемых в строительстве волокон композиционных материалов приведены в таблице 1.
+                </Paragraph>
+                <Section FontSize="14">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="2*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>Тип фибры</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Прочность на растяжение, МПа</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Модуль упругости, ГПа</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Деформация удлинения,%</Paragraph>                                    
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Плотность</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>Углерод высокопрочный</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>3400-3900</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>200-250</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1,5-2,5</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1,75-1,95</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>Углерод высокомодульный</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>2900-4000</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>300-700</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>0,45-1,2</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1,75-1,95</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>Арамид высокопрочный</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>3500</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>75</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>4,6</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1,4</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>Арамид высокомодульный</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>2900</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>110</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1,5-2,4</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1,4</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>Стекло универсальное</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>3400-3700</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>21-74</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>3,3-4,8</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>2,6</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <Paragraph>
+                    Использование композитных материалов нашло широкое применение при усилении железобетонных конструкций [1, 2]. 
+                    Более новым направлением является применение данного способа при усилении деревянных конструкций.
+                    Широкое использование углепластика при усилении железобетонных конструкций объясняется прежде всего трудоемкостью 
+                    производства работ при применении классических способов усиления. При создании обойм при усилении сжатых железобетонных 
+                    элементов с использованием стального профиля основная сложность заключается в своевременном включении стальной обоймы в работу, 
+                    в то время как обойма из композитных материалов сразу же включается в работу посредством клеевого шва.
+                    Углепластик при усилении деревянных сжатых элементов применяется в случае возникновения продольных усушечных трещин. 
+                    Пример усиления деревянного сжатого элемента углеродным волокном приведен на рис. 1.
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="250" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/1.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                <Paragraph>
+                    Возможности применения поперечного армирования углеродным волокном при усилении сжатых элементов посвящено ряд 
+                    иностранных исследований [3]. В данном исследовании экспериментально устанавливается возможность восстановления 
+                    несущей способности деревянного сжатого элемента с использованием углеродного волокна в случае образования продольной 
+                    трещины на всю длину элемента. В ходе эксперимента было испытано ряд образцов: первый – без ослабления поперечного сечения, 
+                    второй – с ослаблением в виде продольной трещины и третий – с ослаблением в виде продольной трещины, но усиленный при этом углеродным волокном. 
+                    Имитация трещины достигалась путем пропила толщиной 6 мм в середине сечения элемента. Результаты эксперимента приведены в таблице 2.
+                </Paragraph>
+                <Section FontSize="14">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>№ образца</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Размеры поперечного сечения, bxh</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Длина элемента, l [мм]</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Вид ослабления</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Способ усиления</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>Максимальная нагрузка, N [кН]</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>1</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>200x200</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1800</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>отсутствует</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>отсутствует</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>846</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>2</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>200x200</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1800</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>трещина t=6 мм</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>отсутствует</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>571</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>3</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>200x200</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>1800</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>трещина t=6 мм</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>обоймы из углеволокна</Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>835</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <Paragraph>
+                    Из таблицы видно, что образование трещины снижает несущую способность деревянного сжатого элемента на 32,5 %, 
+                    но путем применения поперечного армирования из углеродного волокна ее можно практически полностью восстановить.
+                    Использование композитных материалов на основе углеродного волокна при усилении сжатых деревянных элементов является новым направлением, 
+                    не смотря на проведенные исследования полноценный метод расчета данного способа усиления отсутствует.
+                </Paragraph>                
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Нажми, если понравилась статья"/>
+                        <Button Content="Нравиться!"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click_2"/>
+            <Button Content="Cохранить" Width="100" Click="Button_Click_1"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
